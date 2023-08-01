@@ -1,0 +1,33 @@
+Assignment: Module 5
+Que.1 Why Django should be used for web-development? Explain how you can create a project in Django? 
+Ans.1 Django is a framework. it is easy to understand and with the use of django it compeletes more than 50% code by itself. localhost:8000 is django code
+	- it create database by itself that's why no need to learn mysql or any other database applications.
+	- we can create django project by use python -m pip install django or pip install django command in CMD.
+	- there are some command to create any project in django. commands are as below.
+		1. python -m venv (environment name) = create virtual environment for your project.
+		2. (environent name)\Scripts\activate = activate virtual environment.
+		3. pip install django = install django in our project.
+		4. django --version = check the version of django.
+		5. django admin startproject (project name) = create your project.
+		6. python manage.py createsuperuser = create admin.
+		7. python manage.py makemigrations = for change in databse.
+		8. python manage.py migrate = confirm change.
+		9. python manage.py runserver = run the code in the server.
+
+Que.2 How to check installed version of django? 
+Ans.2 by use of 'django --version', we can check installed version of django.
+
+Que.3 Explain what does django-admin.py make messages command is used for?
+Ans.3 Runs over the entire source tree of the current directory and pulls out all strings marked for translation. It creates a message file in the locale directory.
+
+Que.4 What is Django URLs?make program to create django url
+Ans.4 Django app urls.py: First, a urls.py file needs to be created within the application. Each project in Django should maintain its own urls.py file for every application. 
+This ensures effortless inclusion and exclusion of applications from the project.
+
+Que.5 What is a QuerySet?Write program to create a new Post object in database?
+Ans.5 A QuerySet is a collection of data from a database. A QuerySet is built up as a list of objects. QuerySets makes it easier to get the data you actually need, by 
+allowing you to filter and order the data at an early stage.
+
+Que.6 Mention what command line can be used to load data into Django?
+Ans.6 o load data into Django you have to use the command line Django-admin.py loaddata. The command line will searches the data and loads the contents of the named 
+fixtures into the database.
